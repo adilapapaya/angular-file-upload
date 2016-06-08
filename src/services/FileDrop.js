@@ -72,7 +72,7 @@ export default function __identity(FileDirective) {
          * Event handler
          */
         onDragLeave(event) {
-            if(event.currentTarget === this.element[0]) return;
+            // if(event.currentTarget === this.element[0]) return;
             this._preventAndStop(event);
             forEach(this.uploader._directives.over, this._removeOverClass, this);
         }
@@ -87,7 +87,7 @@ export default function __identity(FileDirective) {
          */
         _preventAndStop(event) {
             event.preventDefault();
-            event.stopPropagation();
+            // event.stopPropagation();
         }
         /**
          * Returns "true" if types contains files
