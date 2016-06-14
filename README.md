@@ -10,8 +10,11 @@ This is a fork of the [**Angular File Upload**](https://github.com/nervgh/angula
 
 To bower install:
 ```
-bower install https://github.com/adilapapaya/angular-file-upload.git
+bower install https://github.com/adilapapaya/angular-file-upload.git#master
 ```
+
+(If this doesn't work, [check your bower version](http://stackoverflow.com/questions/16949173/how-to-install-latest-untagged-state-of-a-repo-using-bower))
+
 
 To `gulp build` or `gulp watch`:
 ```
@@ -25,7 +28,7 @@ Take a look at the [imagePreview_dragLeave](examples/imagePreview_dragLeave) exa
 
 –––
 
-See the [original project README] for further details regarding the API, etc.
+See the [original project README](https://github.com/nervgh/angular-file-upload/) for further details regarding the API, etc.
 
 
 
